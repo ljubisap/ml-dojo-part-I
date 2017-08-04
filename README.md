@@ -47,7 +47,7 @@ In order to start please follow these steps:
  * [Numpy website](http://www.numpy.org/)
  * [Matplotlib website](http://matplotlib.org/)
  * [Titanic dataset on Kaggle](https://www.kaggle.com/c/titanic)
- * [Boston housing dataset on Kaggle](https://inclass.kaggle.com/c/boston-housing)
+ * [House prices dataset on Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
  * [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](http://shop.oreilly.com/product/0636920052289.do)
  * [Introduction to Data Science - Laura Igual and Santi Seguí](http://www.springer.com/de/book/9783319500164)
  * [Code academy Python course](https://www.codecademy.com/learn/python)
