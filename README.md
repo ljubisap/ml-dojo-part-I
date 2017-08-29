@@ -26,6 +26,29 @@ In order to start please follow these steps:
     ``` 
     source ~/.bash_profile
 	```  
+### Install Tensorflow
+ * Install package directly from Google repository:
+    ```
+    pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.3.0-py2-none-any.whl
+    ```
+ * In case you do not have pip (you should though) this is how you can install it:
+    ```
+    sudo easy_install pip
+    ```
+ * Type right there in the console
+   ```
+   python
+   ```
+ * Python console will open. Enter these two lines of code:
+    ```  
+    import tensorflow as tf
+    tf.__version__
+    ```
+ * The result should be:
+    ```
+    '1.3.0'
+    ```
+### Starting Jupyter notebook 	
  * Navigate to folder where you want to checkout Github project for further fork
  * Checkout required Github repository from [here](https://github.com/ljubisap/ml-dojo-part-I).
     ``` 
@@ -40,6 +63,16 @@ In order to start please follow these steps:
  	export BROWSER=open
  	jupyter notebook Machine\ Learning\ Dojo\ -\ Part\ I.ipynb
 	```   
+	Note: Since we are going to use some larger photos, you might need to start Notebook in a following way:
+ 	``` 
+ 	jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000  
+    ```
+    and then to select Notebook file you want. This tutorial has two of them:
+     * Do it yourself.ipynb
+     * Machine Learning Dojo - Part I.ipynb
+    
+    by clicking on a file name, appropriate Notebook will be opened.  
+     	  
 ### Further readings and references
  * [Scikit Learn website](http://scikit-learn.org/)
  * [Pandas website](http://pandas.pydata.org/)
