@@ -13,14 +13,14 @@ In order to start please follow these steps:
  	``` 
  	cd ~
 	``` 
- * Download and install Anaconda from here (for Python 2.7, DO NOT install 3.6):
-	https://www.continuum.io/downloads. You can also do it from command line in a following way:
+ * Download and install Anaconda from here (install version 3.7):
+	https://www.anaconda.com/distribution/. You can also do it from command line in a following way:
 	``` 
-	curl -o Anaconda2-4.4.0-MacOSX-x86_64.sh https://repo.continuum.io/archive/Anaconda2-4.4.0-MacOSX-x86_64.sh
+	curl -o Anaconda2-4.4.0-MacOSX-x86_64.sh https://repo.continuum.io/archive/Anaconda2-2019.07-MacOSX-x86_64.sh
 	``` 
  * Start installation and follow instructions on the screen. Accept all default options offered during installation:
     ``` 
-	bash Anaconda2-4.4.0-MacOSX-x86_64.sh
+	bash Anaconda2-2019.07-MacOSX-x86_64.sh
 	``` 
  * Update environment variables:
     ``` 
